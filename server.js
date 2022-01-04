@@ -8,7 +8,7 @@ var express = require('express'),
 
 //mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://aelgh:sommar1!@cluster0.fizlc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://aelgh:sommar1@cluster0.fizlc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
